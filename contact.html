@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spartan Tech</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" initial-scale="1" />
+    <meta name="Author" content="Joshua Andrea" />
+    <meta name="description" content="Upcoming sport innovations" />
+    <meta name="keywords" content="sport, sports, IT, information, technology, spartan, better, faster, stronger" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/spartanlogo.png" />
+  </head>
+
+  <body>
+    <header>
+      <section class="header">
+        <img src="img/spartanlogo.png" alt="logo" id="logo" />
+        <h1>Spartan Tech</h1>
+        <h2><em>Better - Faster - Stronger</em></h2>
+      </section>
+
+      <section id="navigation"> <!--Navigation bar-->
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="product.html">Product</a>
+            </li>
+            <li>
+              <a href="pricing.html">Pricing</a>
+            </li>
+            <li><a class="activePage">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <section id="hamburgernav"> <!--Hamburger menu-->
+      <nav>
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" />
+
+        <section id="hamburgeritems">
+          <a href="index.html">Home</a>
+          <a href="product.html">Product</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+        </section>
+      </nav>
+    </section>
+
+    <main class="contactWrapper"> <!--Contact page-->
+
+      <section id="contactproducts"> <!--Products aside-->
+        <h2>Buy now!</h2>
+        <aside>
+          <a class="product1" href="https://www.inholland.nl">
+            VR HTC Vive Set
+            <img src="img/HTCViveSet.png" alt="VR Set" />
+          </a>
+          <a class="product2" href="https://www.inholland.nl">
+            Fitbit Watches
+            <img src="img/Fitbits.png" alt="Fitbit Watches " />
+          </a>
+          <a class="product3" href="https://www.inholland.nl">
+            Go Pro Camera
+            <img src="img/GoProCamera.png" alt="GoPro" />
+          </a>
+        </aside>
+      </section>
+      
+      <section id="contactForm"> <!--Contact form-->
+        <h2>Contact:</h2>
+        <form action="/action_page.php" method="get">
+          <fieldset>
+            <legend>Contact Us</legend>
+            <label for="firstname">First Name: </label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Your First Name"
+            />
+            <label for="lastname">Last Name: </label>
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Your Last Name"
+            />
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email Address"
+            />
+            <label for="message">Message: </label>
+            <textarea
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    
+
+    <section id="cookieStatement">
+      <p>
+        Cookie statement
+      </p>
+    </section>
+
+    <footer id="footer">
+      &copy; Joshua Andrea 2022
+    </footer>
+  </body>
+</html>
