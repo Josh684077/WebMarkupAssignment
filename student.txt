@@ -1,4 +1,4 @@
 Name: Joshua Andrea
-student number: 684077
-class: IT2A
-github repository: https://github.com/Josh684077/WebMarkupAssignment
+Student number: 684077
+Class: IT2A
+Github repository: https://github.com/Josh684077/WebMarkupAssignment
